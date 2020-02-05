@@ -57,12 +57,22 @@
 ```js
 // Q1. Write a function that returns the sum of 3 numbers.
 
+function addThree(x,y,z) {
+    return x+y+z;
+}
+
 
 // Q2. Write a function that returns the square of a number minus twice the number.
 
+function squareMinusTwice(x) {
+    return (x*x - x*2); 
+}
 
 // Q3. Write a function that returns the a person's full name, given their first and last names.
 
+function fullName(x,y) {
+    return `hello ${x} ${y}`;  
+}
 
 ```
 
@@ -73,12 +83,21 @@
 ```js
 // Q4. Write a function that returns the value of the tax for a given amount.
 
+function addTax(x) {
+    return x*1.15; 
+}
 
 // Q5. Write a function that returns the value 42.
 
+function return42(){
+    return 42; 
+}
 
 // Q6. Write a function that returns "Hello!".
 
+function sayHello() {
+    return "Hello!";
+}
 
 ```
 

@@ -7,7 +7,11 @@
 // Returns true if every element of lst is of length at least 5.
 // Otherwise returns false.
 function allLong(lst) {
-    // lst is an array of strings
+
+    let min5 = lst.every(function (name) {
+        return name.length > 4;
+    })
+    return min5;
 
 }
 // -------------------------------------------------------------------------

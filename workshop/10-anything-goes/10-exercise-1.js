@@ -11,6 +11,13 @@
 // characters there are in the string.
 
 function countBs(str) {
+    let count = 0;
+    for (i = 0; i < str.length - 1; i++) {
+        if (str[i] === "B") {
+            count += 1;
+        }
+    }
+    return count;
 
 }
 // -------------------------------------------------------------------------

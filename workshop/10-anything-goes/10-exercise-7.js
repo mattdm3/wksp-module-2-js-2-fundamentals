@@ -12,7 +12,14 @@
 // map(["bob", "susie"], toUpperCase) returns ["BOB", "SUSIE"]
 
 function map(lst, func) {
-    // lst is an array and func is a function
+
+    let newArray = [];
+    for (i = 0; i < lst.length; i++) {
+        if (func(lst[i])) {
+            newArray.push(lst[i]);
+        }
+    };
+    return newArray;
 
 }
 // -------------------------------------------------------------------------
