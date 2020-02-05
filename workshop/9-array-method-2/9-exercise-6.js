@@ -9,6 +9,12 @@
 
 function greet(lst) {
     // lst is an array of strings
+    let newArray = lst.map(function (word) {
+        return "Hello " + word;
+
+    })
+    return newArray;
+
 
 }
 // -------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-// For exercises 4 to 8, you are not allowed to for or while loops.
+// For exercises 4 to 8, you are not allowed to use for or while loops.
 // Instead focus on the array methods (filter, map, forEach, etc)
 
 // You will also need to verify that your functions work as expected. Be sure to test them. :)
@@ -6,8 +6,11 @@
 // Q4
 // Write a function that accepts a list of numbers and returns a new list with
 // all of the even numbers removed.
-function removeEvens(lst) {
-    // lst is an array of strings
+function removeEvens(list) {
+    let newList = list.filter(function (item) {
+        return (item % 2 === 0);
+    })
+    return newList;
 
 }
 // -------------------------------------------------------------------------
